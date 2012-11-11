@@ -18,12 +18,15 @@
 		F5A70FCF164EB83F003E0663 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FCE164EB83F003E0663 /* Default-568h@2x.png */; };
 		F5A70FD2164EB83F003E0663 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FD0164EB83F003E0663 /* MainStoryboard_iPhone.storyboard */; };
 		F5A70FD5164EB83F003E0663 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FD3164EB83F003E0663 /* MainStoryboard_iPad.storyboard */; };
-		F5A70FD8164EB83F003E0663 /* AvieFirstYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FD7164EB83F003E0663 /* AvieFirstYearViewController.m */; };
 		F5A70FE0164EB83F003E0663 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FDF164EB83F003E0663 /* SenTestingKit.framework */; };
 		F5A70FE1164EB83F003E0663 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FB8164EB83E003E0663 /* UIKit.framework */; };
 		F5A70FE2164EB83F003E0663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FBA164EB83E003E0663 /* Foundation.framework */; };
 		F5A70FEA164EB83F003E0663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FE8164EB83F003E0663 /* InfoPlist.strings */; };
 		F5A70FED164EB83F003E0663 /* AvieFirstYearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FEC164EB83F003E0663 /* AvieFirstYearTests.m */; };
+		F5A70FF8164EBAE9003E0663 /* AvieFirstYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FF7164EBAE9003E0663 /* AvieFirstYearViewController.m */; };
+		F5A70FFD164F0F14003E0663 /* avie_burrito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FFC164F0F13003E0663 /* avie_burrito.jpg */; };
+		F5A71003164F1564003E0663 /* june_dillon.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5A71002164F1564003E0663 /* june_dillon.JPG */; };
+		F5A7100616501D83003E0663 /* AvieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7100516501D83003E0663 /* AvieDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,14 +55,18 @@
 		F5A70FCE164EB83F003E0663 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F5A70FD1164EB83F003E0663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		F5A70FD4164EB83F003E0663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		F5A70FD6164EB83F003E0663 /* AvieFirstYearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvieFirstYearViewController.h; sourceTree = "<group>"; };
-		F5A70FD7164EB83F003E0663 /* AvieFirstYearViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvieFirstYearViewController.m; sourceTree = "<group>"; };
 		F5A70FDE164EB83F003E0663 /* AvieFirstYearTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvieFirstYearTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A70FDF164EB83F003E0663 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F5A70FE7164EB83F003E0663 /* AvieFirstYearTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvieFirstYearTests-Info.plist"; sourceTree = "<group>"; };
 		F5A70FE9164EB83F003E0663 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5A70FEB164EB83F003E0663 /* AvieFirstYearTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvieFirstYearTests.h; sourceTree = "<group>"; };
 		F5A70FEC164EB83F003E0663 /* AvieFirstYearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvieFirstYearTests.m; sourceTree = "<group>"; };
+		F5A70FF6164EBAE9003E0663 /* AvieFirstYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvieFirstYearViewController.h; sourceTree = SOURCE_ROOT; };
+		F5A70FF7164EBAE9003E0663 /* AvieFirstYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvieFirstYearViewController.m; sourceTree = SOURCE_ROOT; };
+		F5A70FFC164F0F13003E0663 /* avie_burrito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avie_burrito.jpg; sourceTree = "<group>"; };
+		F5A71002164F1564003E0663 /* june_dillon.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = june_dillon.JPG; sourceTree = "<group>"; };
+		F5A7100416501D83003E0663 /* AvieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvieDetailViewController.h; sourceTree = "<group>"; };
+		F5A7100516501D83003E0663 /* AvieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvieDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +130,10 @@
 				F5A70FC8164EB83F003E0663 /* AvieFirstYearAppDelegate.m */,
 				F5A70FD0164EB83F003E0663 /* MainStoryboard_iPhone.storyboard */,
 				F5A70FD3164EB83F003E0663 /* MainStoryboard_iPad.storyboard */,
-				F5A70FD6164EB83F003E0663 /* AvieFirstYearViewController.h */,
-				F5A70FD7164EB83F003E0663 /* AvieFirstYearViewController.m */,
+				F5A70FF6164EBAE9003E0663 /* AvieFirstYearViewController.h */,
+				F5A70FF7164EBAE9003E0663 /* AvieFirstYearViewController.m */,
+				F5A7100416501D83003E0663 /* AvieDetailViewController.h */,
+				F5A7100516501D83003E0663 /* AvieDetailViewController.m */,
 				F5A70FBF164EB83E003E0663 /* Supporting Files */,
 			);
 			path = AvieFirstYear;
@@ -133,6 +142,8 @@
 		F5A70FBF164EB83E003E0663 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F5A70FFC164F0F13003E0663 /* avie_burrito.jpg */,
+				F5A71002164F1564003E0663 /* june_dillon.JPG */,
 				F5A70FC0164EB83E003E0663 /* AvieFirstYear-Info.plist */,
 				F5A70FC1164EB83E003E0663 /* InfoPlist.strings */,
 				F5A70FC4164EB83E003E0663 /* main.m */,
@@ -241,6 +252,8 @@
 				F5A70FCF164EB83F003E0663 /* Default-568h@2x.png in Resources */,
 				F5A70FD2164EB83F003E0663 /* MainStoryboard_iPhone.storyboard in Resources */,
 				F5A70FD5164EB83F003E0663 /* MainStoryboard_iPad.storyboard in Resources */,
+				F5A70FFD164F0F14003E0663 /* avie_burrito.jpg in Resources */,
+				F5A71003164F1564003E0663 /* june_dillon.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +290,8 @@
 			files = (
 				F5A70FC5164EB83E003E0663 /* main.m in Sources */,
 				F5A70FC9164EB83F003E0663 /* AvieFirstYearAppDelegate.m in Sources */,
-				F5A70FD8164EB83F003E0663 /* AvieFirstYearViewController.m in Sources */,
+				F5A70FF8164EBAE9003E0663 /* AvieFirstYearViewController.m in Sources */,
+				F5A7100616501D83003E0663 /* AvieDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
