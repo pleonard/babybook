@@ -27,7 +27,14 @@
 {
     [super viewDidLoad];
     
+//    NSString *title = [[NSString alloc] initWithFormat:@"foobar"];
+//    NSString *title = [[NSString alloc] initWithString:@[_avieTitleDetailModel[0]]];
+//    [self setTitle:title];
+
+    // set the title and the image
+//    [self setTitle:_avieTitleDetailModel[0]];
     _avieDetailImage.image = [UIImage imageNamed:_avieDetailModel[0]];
+    _avieDetailDescription.text = [NSString stringWithString:_avieDescriptionDetailModel[0]];
 }
 
 - (void)didReceiveMemoryWarning

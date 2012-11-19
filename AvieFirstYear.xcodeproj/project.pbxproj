@@ -27,6 +27,15 @@
 		F5A70FFD164F0F14003E0663 /* avie_burrito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FFC164F0F13003E0663 /* avie_burrito.jpg */; };
 		F5A71003164F1564003E0663 /* june_dillon.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5A71002164F1564003E0663 /* june_dillon.JPG */; };
 		F5A7100616501D83003E0663 /* AvieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7100516501D83003E0663 /* AvieDetailViewController.m */; };
+		F5A710081650326C003E0663 /* sep_laugh_yard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A710071650326C003E0663 /* sep_laugh_yard.jpg */; };
+		F5A7100A165130C3003E0663 /* apr_feeding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A71009165130C3003E0663 /* apr_feeding.jpg */; };
+		F5A7100C16513194003E0663 /* may_bath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A7100B16513194003E0663 /* may_bath.jpg */; };
+		F5F9BF341659AB0B00EAE85C /* jul_hiking.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */; };
+		F5F9BF371659AB7F00EAE85C /* aug_lins_vic.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */; };
+		F5F9BF391659AC0700EAE85C /* aug_hair.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF381659AC0700EAE85C /* aug_hair.JPG */; };
+		F5F9BF3B1659B30D00EAE85C /* oct_lobster.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF3A1659B30D00EAE85C /* oct_lobster.JPG */; };
+		F5F9BF3D1659B3B400EAE85C /* family.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF3C1659B3B400EAE85C /* family.JPG */; };
+		F5F9BF3F1659B4A800EAE85C /* nov_bath_mohawk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF3E1659B4A800EAE85C /* nov_bath_mohawk.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +76,15 @@
 		F5A71002164F1564003E0663 /* june_dillon.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = june_dillon.JPG; sourceTree = "<group>"; };
 		F5A7100416501D83003E0663 /* AvieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvieDetailViewController.h; sourceTree = "<group>"; };
 		F5A7100516501D83003E0663 /* AvieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvieDetailViewController.m; sourceTree = "<group>"; };
+		F5A710071650326C003E0663 /* sep_laugh_yard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sep_laugh_yard.jpg; sourceTree = "<group>"; };
+		F5A71009165130C3003E0663 /* apr_feeding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apr_feeding.jpg; sourceTree = "<group>"; };
+		F5A7100B16513194003E0663 /* may_bath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = may_bath.jpg; sourceTree = "<group>"; };
+		F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_hiking.JPG; sourceTree = "<group>"; };
+		F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_lins_vic.JPG; sourceTree = "<group>"; };
+		F5F9BF381659AC0700EAE85C /* aug_hair.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_hair.JPG; sourceTree = "<group>"; };
+		F5F9BF3A1659B30D00EAE85C /* oct_lobster.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_lobster.JPG; sourceTree = "<group>"; };
+		F5F9BF3C1659B3B400EAE85C /* family.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = family.JPG; sourceTree = "<group>"; };
+		F5F9BF3E1659B4A800EAE85C /* nov_bath_mohawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nov_bath_mohawk.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +161,16 @@
 			isa = PBXGroup;
 			children = (
 				F5A70FFC164F0F13003E0663 /* avie_burrito.jpg */,
+				F5A71009165130C3003E0663 /* apr_feeding.jpg */,
+				F5A7100B16513194003E0663 /* may_bath.jpg */,
 				F5A71002164F1564003E0663 /* june_dillon.JPG */,
+				F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */,
+				F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */,
+				F5F9BF381659AC0700EAE85C /* aug_hair.JPG */,
+				F5A710071650326C003E0663 /* sep_laugh_yard.jpg */,
+				F5F9BF3A1659B30D00EAE85C /* oct_lobster.JPG */,
+				F5F9BF3E1659B4A800EAE85C /* nov_bath_mohawk.jpg */,
+				F5F9BF3C1659B3B400EAE85C /* family.JPG */,
 				F5A70FC0164EB83E003E0663 /* AvieFirstYear-Info.plist */,
 				F5A70FC1164EB83E003E0663 /* InfoPlist.strings */,
 				F5A70FC4164EB83E003E0663 /* main.m */,
@@ -254,6 +281,15 @@
 				F5A70FD5164EB83F003E0663 /* MainStoryboard_iPad.storyboard in Resources */,
 				F5A70FFD164F0F14003E0663 /* avie_burrito.jpg in Resources */,
 				F5A71003164F1564003E0663 /* june_dillon.JPG in Resources */,
+				F5A710081650326C003E0663 /* sep_laugh_yard.jpg in Resources */,
+				F5A7100A165130C3003E0663 /* apr_feeding.jpg in Resources */,
+				F5A7100C16513194003E0663 /* may_bath.jpg in Resources */,
+				F5F9BF341659AB0B00EAE85C /* jul_hiking.JPG in Resources */,
+				F5F9BF371659AB7F00EAE85C /* aug_lins_vic.JPG in Resources */,
+				F5F9BF391659AC0700EAE85C /* aug_hair.JPG in Resources */,
+				F5F9BF3B1659B30D00EAE85C /* oct_lobster.JPG in Resources */,
+				F5F9BF3D1659B3B400EAE85C /* family.JPG in Resources */,
+				F5F9BF3F1659B4A800EAE85C /* nov_bath_mohawk.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +443,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvieFirstYear/AvieFirstYear-Prefix.pch";
 				INFOPLIST_FILE = "AvieFirstYear/AvieFirstYear-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -418,6 +455,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvieFirstYear/AvieFirstYear-Prefix.pch";
 				INFOPLIST_FILE = "AvieFirstYear/AvieFirstYear-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -476,6 +514,7 @@
 				F5A70FF2164EB83F003E0663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5A70FF3164EB83F003E0663 /* Build configuration list for PBXNativeTarget "AvieFirstYearTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +523,7 @@
 				F5A70FF5164EB83F003E0663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
