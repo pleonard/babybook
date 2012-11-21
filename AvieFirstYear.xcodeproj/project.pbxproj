@@ -79,6 +79,7 @@
 		F5A710071650326C003E0663 /* sep_laugh_yard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sep_laugh_yard.jpg; sourceTree = "<group>"; };
 		F5A71009165130C3003E0663 /* apr_feeding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apr_feeding.jpg; sourceTree = "<group>"; };
 		F5A7100B16513194003E0663 /* may_bath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = may_bath.jpg; sourceTree = "<group>"; };
+		F5F2E035165D3BC900FD8845 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_hiking.JPG; sourceTree = "<group>"; };
 		F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_lins_vic.JPG; sourceTree = "<group>"; };
 		F5F9BF381659AC0700EAE85C /* aug_hair.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_hair.JPG; sourceTree = "<group>"; };
@@ -114,6 +115,7 @@
 		F5A70FA9164EB83E003E0663 = {
 			isa = PBXGroup;
 			children = (
+				F5F2E035165D3BC900FD8845 /* Default.png */,
 				F5A70FBE164EB83E003E0663 /* AvieFirstYear */,
 				F5A70FE5164EB83F003E0663 /* AvieFirstYearTests */,
 				F5A70FB7164EB83E003E0663 /* Frameworks */,
@@ -443,8 +445,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvieFirstYear/AvieFirstYear-Prefix.pch";
 				INFOPLIST_FILE = "AvieFirstYear/AvieFirstYear-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -455,8 +458,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvieFirstYear/AvieFirstYear-Prefix.pch";
 				INFOPLIST_FILE = "AvieFirstYear/AvieFirstYear-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
