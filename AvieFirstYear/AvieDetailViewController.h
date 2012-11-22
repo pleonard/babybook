@@ -15,4 +15,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *avieDetailImage;
 @property (strong, nonatomic) IBOutlet UILabel *avieDetailDescription;
 
+@property (strong, nonatomic) IBOutlet UIImageView *avieDetailPicture;
+@property (strong, nonatomic) IBOutlet UILabel *avieDetailLabel;
+
 @end
