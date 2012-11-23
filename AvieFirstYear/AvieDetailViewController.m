@@ -33,12 +33,13 @@
 
     // set the title and the image
 //    [self setTitle:_avieTitleDetailModel[0]];
+/*
     _avieDetailImage.image = [UIImage imageNamed:_avieDetailModel[0]];
     _avieDetailDescription.text = [NSString stringWithString:_avieDescriptionDetailModel[0]];
-
+*/
     _avieDetailPicture.image = [UIImage imageNamed:_avieDetailModel[0]];
     _avieDetailLabel.text = [NSString stringWithString:_avieDescriptionDetailModel[0]];
-
+    _avieDetailHeader.title = [NSString stringWithString:_avieTitleDetailModel[0]];
 }
 
 - (void)didReceiveMemoryWarning

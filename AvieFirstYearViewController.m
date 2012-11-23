@@ -31,13 +31,13 @@
 //    _avieImageMar.image = [UIImage imageNamed:@"avie_burrito.jpg"];
 //    _avieImageApr.image = [UIImage imageNamed:@"apr_feeding.jpg"];
 //    _avieImageMay.image = [UIImage imageNamed:@"may_bath.jpg"];
-    _avieImageJun.image = [UIImage imageNamed:@"june_dillon.jpg"];
+/*    _avieImageJun.image = [UIImage imageNamed:@"june_dillon.jpg"];
     _avieImageJul.image = [UIImage imageNamed:@"jul_hiking.jpg"];
     _avieImageAug.image = [UIImage imageNamed:@"aug_hair.jpg"];
     _avieImageSep.image = [UIImage imageNamed:@"sep_laugh_yard.jpg"];
     _avieImageOct.image = [UIImage imageNamed:@"oct_lobster.jpg"];
     _avieImageNov.image = [UIImage imageNamed:@"nov_bath_mohawk.jpg"];
-
+*/
     _avieImageMarch.image = [UIImage imageNamed:@"avie_burrito.jpg"];
     _avieImageApril.image = [UIImage imageNamed:@"apr_feeding.jpg"];
     _avieImageMay.image = [UIImage imageNamed:@"may_bath.jpg"];
@@ -52,7 +52,7 @@
     //After a long day of Mommy working very, very, hard, our little Avery was born on a snowy day the 1st of March 2012. When she rolled over after only 2 weeks we knew she would be a "spirited" little girl!
     
     // create array of images for use in detail view controller
-    _avieMonthTitles = @[@"March", @"April", @"June", @"July", @"August", @"September", @"October", @"November", @"December", @"January", @"February"];
+    _avieMonthTitles = @[@"March", @"April", @"May", @"June", @"July", @"August", @"September", @"October", @"November", @"December", @"January", @"February"];
     _avieImages = @[@"avie_burrito.jpg", @"apr_feeding.jpg", @"may_bath.jpg", @"june_dillon.jpg", @"jul_hiking.jpg", @"aug_hair.jpg", @"sep_laugh_yard.jpg", @"oct_lobster.jpg", @"nov_bath_mohawk.jpg"
     ];
     _avieDescriptions = @[
@@ -98,6 +98,7 @@
     {
         AvieDetailViewController *detailViewController = [segue destinationViewController];
         row = 0;
+        detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
@@ -105,6 +106,7 @@
     {
         AvieDetailViewController *detailViewController = [segue destinationViewController];
         row = 1;
+        detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
@@ -112,6 +114,7 @@
     {
         AvieDetailViewController *detailViewController = [segue destinationViewController];
         row = 2;
+        detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
@@ -119,6 +122,7 @@
     {
         AvieDetailViewController *detailViewController = [segue destinationViewController];
         row = 3;
+        detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
@@ -126,6 +130,7 @@
     {
         AvieDetailViewController *detailViewController = [segue destinationViewController];
         row = 4;
+        detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
@@ -133,6 +138,7 @@
     {
         AvieDetailViewController *detailViewController = [segue destinationViewController];
         row = 5;
+        detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
@@ -140,6 +146,7 @@
     {
         AvieDetailViewController *detailViewController = [segue destinationViewController];
         row = 6;
+        detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
@@ -147,6 +154,7 @@
     {
         AvieDetailViewController *detailViewController = [segue destinationViewController];
         row = 7;
+        detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
@@ -154,9 +162,11 @@
     {
         AvieDetailViewController *detailViewController = [segue destinationViewController];
         row = 8;
+        detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
+/*
     else if ([[segue identifier] isEqualToString:@"ShowAprDetails"])
     {
         AvieDetailViewController *detailViewController = [segue destinationViewController];
@@ -213,6 +223,7 @@
         detailViewController.avieDetailModel = @[_avieImages[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
+*/
 }
 
 #pragma mark - Table view data source

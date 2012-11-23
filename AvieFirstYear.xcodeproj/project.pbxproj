@@ -13,7 +13,7 @@
 		F5A70FC3164EB83E003E0663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FC1164EB83E003E0663 /* InfoPlist.strings */; };
 		F5A70FC5164EB83E003E0663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FC4164EB83E003E0663 /* main.m */; };
 		F5A70FC9164EB83F003E0663 /* AvieFirstYearAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FC8164EB83F003E0663 /* AvieFirstYearAppDelegate.m */; };
-		F5A70FCB164EB83F003E0663 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FCA164EB83F003E0663 /* Default.png */; };
+		F5A70FCB164EB83F003E0663 /* Default2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FCA164EB83F003E0663 /* Default2.png */; };
 		F5A70FCD164EB83F003E0663 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FCC164EB83F003E0663 /* Default@2x.png */; };
 		F5A70FCF164EB83F003E0663 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FCE164EB83F003E0663 /* Default-568h@2x.png */; };
 		F5A70FD2164EB83F003E0663 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FD0164EB83F003E0663 /* MainStoryboard_iPhone.storyboard */; };
@@ -30,6 +30,10 @@
 		F5A710081650326C003E0663 /* sep_laugh_yard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A710071650326C003E0663 /* sep_laugh_yard.jpg */; };
 		F5A7100A165130C3003E0663 /* apr_feeding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A71009165130C3003E0663 /* apr_feeding.jpg */; };
 		F5A7100C16513194003E0663 /* may_bath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A7100B16513194003E0663 /* may_bath.jpg */; };
+		F5F2E03C165E639300FD8845 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E03B165E639300FD8845 /* default.png */; };
+		F5F2E03D165E63B000FD8845 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E035165D3BC900FD8845 /* Default.png */; };
+		F5F2E03F1660149C00FD8845 /* default_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E03E1660149C00FD8845 /* default_retina.png */; };
+		F5F2E041166014A200FD8845 /* default_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E040166014A200FD8845 /* default_retina.png */; };
 		F5F9BF341659AB0B00EAE85C /* jul_hiking.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */; };
 		F5F9BF371659AB7F00EAE85C /* aug_lins_vic.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */; };
 		F5F9BF391659AC0700EAE85C /* aug_hair.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF381659AC0700EAE85C /* aug_hair.JPG */; };
@@ -59,7 +63,7 @@
 		F5A70FC6164EB83F003E0663 /* AvieFirstYear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AvieFirstYear-Prefix.pch"; sourceTree = "<group>"; };
 		F5A70FC7164EB83F003E0663 /* AvieFirstYearAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvieFirstYearAppDelegate.h; sourceTree = "<group>"; };
 		F5A70FC8164EB83F003E0663 /* AvieFirstYearAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvieFirstYearAppDelegate.m; sourceTree = "<group>"; };
-		F5A70FCA164EB83F003E0663 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F5A70FCA164EB83F003E0663 /* Default2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default2.png; sourceTree = "<group>"; };
 		F5A70FCC164EB83F003E0663 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F5A70FCE164EB83F003E0663 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F5A70FD1164EB83F003E0663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
@@ -80,6 +84,9 @@
 		F5A71009165130C3003E0663 /* apr_feeding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apr_feeding.jpg; sourceTree = "<group>"; };
 		F5A7100B16513194003E0663 /* may_bath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = may_bath.jpg; sourceTree = "<group>"; };
 		F5F2E035165D3BC900FD8845 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F5F2E03B165E639300FD8845 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../../../../Pictures/Avery/default.png; sourceTree = "<group>"; };
+		F5F2E03E1660149C00FD8845 /* default_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_retina.png; path = ../../../../Pictures/Avery/default_retina.png; sourceTree = "<group>"; };
+		F5F2E040166014A200FD8845 /* default_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_retina.png; sourceTree = "<group>"; };
 		F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_hiking.JPG; sourceTree = "<group>"; };
 		F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_lins_vic.JPG; sourceTree = "<group>"; };
 		F5F9BF381659AC0700EAE85C /* aug_hair.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_hair.JPG; sourceTree = "<group>"; };
@@ -115,6 +122,7 @@
 		F5A70FA9164EB83E003E0663 = {
 			isa = PBXGroup;
 			children = (
+				F5F2E040166014A200FD8845 /* default_retina.png */,
 				F5F2E035165D3BC900FD8845 /* Default.png */,
 				F5A70FBE164EB83E003E0663 /* AvieFirstYear */,
 				F5A70FE5164EB83F003E0663 /* AvieFirstYearTests */,
@@ -162,6 +170,7 @@
 		F5A70FBF164EB83E003E0663 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F5F2E03B165E639300FD8845 /* default.png */,
 				F5A70FFC164F0F13003E0663 /* avie_burrito.jpg */,
 				F5A71009165130C3003E0663 /* apr_feeding.jpg */,
 				F5A7100B16513194003E0663 /* may_bath.jpg */,
@@ -177,7 +186,8 @@
 				F5A70FC1164EB83E003E0663 /* InfoPlist.strings */,
 				F5A70FC4164EB83E003E0663 /* main.m */,
 				F5A70FC6164EB83F003E0663 /* AvieFirstYear-Prefix.pch */,
-				F5A70FCA164EB83F003E0663 /* Default.png */,
+				F5F2E03E1660149C00FD8845 /* default_retina.png */,
+				F5A70FCA164EB83F003E0663 /* Default2.png */,
 				F5A70FCC164EB83F003E0663 /* Default@2x.png */,
 				F5A70FCE164EB83F003E0663 /* Default-568h@2x.png */,
 			);
@@ -276,7 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5A70FC3164EB83E003E0663 /* InfoPlist.strings in Resources */,
-				F5A70FCB164EB83F003E0663 /* Default.png in Resources */,
+				F5A70FCB164EB83F003E0663 /* Default2.png in Resources */,
 				F5A70FCD164EB83F003E0663 /* Default@2x.png in Resources */,
 				F5A70FCF164EB83F003E0663 /* Default-568h@2x.png in Resources */,
 				F5A70FD2164EB83F003E0663 /* MainStoryboard_iPhone.storyboard in Resources */,
@@ -292,6 +302,10 @@
 				F5F9BF3B1659B30D00EAE85C /* oct_lobster.JPG in Resources */,
 				F5F9BF3D1659B3B400EAE85C /* family.JPG in Resources */,
 				F5F9BF3F1659B4A800EAE85C /* nov_bath_mohawk.jpg in Resources */,
+				F5F2E03C165E639300FD8845 /* default.png in Resources */,
+				F5F2E03D165E63B000FD8845 /* Default.png in Resources */,
+				F5F2E03F1660149C00FD8845 /* default_retina.png in Resources */,
+				F5F2E041166014A200FD8845 /* default_retina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
