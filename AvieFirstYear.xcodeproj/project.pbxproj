@@ -34,6 +34,10 @@
 		F5F2E03D165E63B000FD8845 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E035165D3BC900FD8845 /* Default.png */; };
 		F5F2E03F1660149C00FD8845 /* default_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E03E1660149C00FD8845 /* default_retina.png */; };
 		F5F2E041166014A200FD8845 /* default_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E040166014A200FD8845 /* default_retina.png */; };
+		F5F2E04716601AA100FD8845 /* june_dillon_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E04616601AA100FD8845 /* june_dillon_large.jpg */; };
+		F5F2E04B16601B5500FD8845 /* oct_lobster_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E04A16601B5500FD8845 /* oct_lobster_large.jpg */; };
+		F5F2E04D16601BA000FD8845 /* jul_hiking_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E04C16601BA000FD8845 /* jul_hiking_large.jpg */; };
+		F5F2E04F16601C0100FD8845 /* aug_hair_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E04E16601C0100FD8845 /* aug_hair_large.jpg */; };
 		F5F9BF341659AB0B00EAE85C /* jul_hiking.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */; };
 		F5F9BF371659AB7F00EAE85C /* aug_lins_vic.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */; };
 		F5F9BF391659AC0700EAE85C /* aug_hair.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF381659AC0700EAE85C /* aug_hair.JPG */; };
@@ -87,6 +91,10 @@
 		F5F2E03B165E639300FD8845 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../../../../Pictures/Avery/default.png; sourceTree = "<group>"; };
 		F5F2E03E1660149C00FD8845 /* default_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_retina.png; path = ../../../../Pictures/Avery/default_retina.png; sourceTree = "<group>"; };
 		F5F2E040166014A200FD8845 /* default_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_retina.png; sourceTree = "<group>"; };
+		F5F2E04616601AA100FD8845 /* june_dillon_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = june_dillon_large.jpg; path = ../../../../Pictures/Avery/june_dillon_large.jpg; sourceTree = "<group>"; };
+		F5F2E04A16601B5500FD8845 /* oct_lobster_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_lobster_large.jpg; sourceTree = "<group>"; };
+		F5F2E04C16601BA000FD8845 /* jul_hiking_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_hiking_large.jpg; sourceTree = "<group>"; };
+		F5F2E04E16601C0100FD8845 /* aug_hair_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_hair_large.jpg; sourceTree = "<group>"; };
 		F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_hiking.JPG; sourceTree = "<group>"; };
 		F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_lins_vic.JPG; sourceTree = "<group>"; };
 		F5F9BF381659AC0700EAE85C /* aug_hair.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_hair.JPG; sourceTree = "<group>"; };
@@ -175,11 +183,15 @@
 				F5A71009165130C3003E0663 /* apr_feeding.jpg */,
 				F5A7100B16513194003E0663 /* may_bath.jpg */,
 				F5A71002164F1564003E0663 /* june_dillon.JPG */,
+				F5F2E04616601AA100FD8845 /* june_dillon_large.jpg */,
 				F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */,
+				F5F2E04C16601BA000FD8845 /* jul_hiking_large.jpg */,
 				F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */,
 				F5F9BF381659AC0700EAE85C /* aug_hair.JPG */,
+				F5F2E04E16601C0100FD8845 /* aug_hair_large.jpg */,
 				F5A710071650326C003E0663 /* sep_laugh_yard.jpg */,
 				F5F9BF3A1659B30D00EAE85C /* oct_lobster.JPG */,
+				F5F2E04A16601B5500FD8845 /* oct_lobster_large.jpg */,
 				F5F9BF3E1659B4A800EAE85C /* nov_bath_mohawk.jpg */,
 				F5F9BF3C1659B3B400EAE85C /* family.JPG */,
 				F5A70FC0164EB83E003E0663 /* AvieFirstYear-Info.plist */,
@@ -306,6 +318,10 @@
 				F5F2E03D165E63B000FD8845 /* Default.png in Resources */,
 				F5F2E03F1660149C00FD8845 /* default_retina.png in Resources */,
 				F5F2E041166014A200FD8845 /* default_retina.png in Resources */,
+				F5F2E04716601AA100FD8845 /* june_dillon_large.jpg in Resources */,
+				F5F2E04B16601B5500FD8845 /* oct_lobster_large.jpg in Resources */,
+				F5F2E04D16601BA000FD8845 /* jul_hiking_large.jpg in Resources */,
+				F5F2E04F16601C0100FD8845 /* aug_hair_large.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
