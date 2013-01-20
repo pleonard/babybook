@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5882B4B16AC3199001333DE /* dec_walker_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5882B4916AC3199001333DE /* dec_walker_thumb.jpg */; };
+		F5882B4C16AC3199001333DE /* dec_walker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5882B4A16AC3199001333DE /* dec_walker.jpg */; };
 		F5A70FB9164EB83E003E0663 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FB8164EB83E003E0663 /* UIKit.framework */; };
 		F5A70FBB164EB83E003E0663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FBA164EB83E003E0663 /* Foundation.framework */; };
 		F5A70FBD164EB83E003E0663 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FBC164EB83E003E0663 /* CoreGraphics.framework */; };
@@ -30,14 +32,23 @@
 		F5A710081650326C003E0663 /* sep_laugh_yard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A710071650326C003E0663 /* sep_laugh_yard.jpg */; };
 		F5A7100A165130C3003E0663 /* apr_feeding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A71009165130C3003E0663 /* apr_feeding.jpg */; };
 		F5A7100C16513194003E0663 /* may_bath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A7100B16513194003E0663 /* may_bath.jpg */; };
-		F5F2E03C165E639300FD8845 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E03B165E639300FD8845 /* default.png */; };
 		F5F2E03D165E63B000FD8845 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E035165D3BC900FD8845 /* Default.png */; };
-		F5F2E03F1660149C00FD8845 /* default_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E03E1660149C00FD8845 /* default_retina.png */; };
 		F5F2E041166014A200FD8845 /* default_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E040166014A200FD8845 /* default_retina.png */; };
-		F5F2E04716601AA100FD8845 /* june_dillon_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E04616601AA100FD8845 /* june_dillon_large.jpg */; };
 		F5F2E04B16601B5500FD8845 /* oct_lobster_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E04A16601B5500FD8845 /* oct_lobster_large.jpg */; };
 		F5F2E04D16601BA000FD8845 /* jul_hiking_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E04C16601BA000FD8845 /* jul_hiking_large.jpg */; };
 		F5F2E04F16601C0100FD8845 /* aug_hair_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E04E16601C0100FD8845 /* aug_hair_large.jpg */; };
+		F5F2E051166A7E0300FD8845 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E050166A7E0300FD8845 /* default.png */; };
+		F5F2E053166A7E0F00FD8845 /* default_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E052166A7E0F00FD8845 /* default_retina.png */; };
+		F5F2E057166A800D00FD8845 /* avie_burrito_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E056166A800D00FD8845 /* avie_burrito_thumb.jpg */; };
+		F5F2E059166A80B800FD8845 /* apr_feeding_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E058166A80B800FD8845 /* apr_feeding_thumb.jpg */; };
+		F5F2E05B166A822400FD8845 /* june_dillon_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E05A166A822400FD8845 /* june_dillon_large.jpg */; };
+		F5F2E05D166A823200FD8845 /* may_bath_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E05C166A823200FD8845 /* may_bath_thumb.jpg */; };
+		F5F2E05F166A823D00FD8845 /* june_dillon_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E05E166A823D00FD8845 /* june_dillon_thumb.jpg */; };
+		F5F2E061166A830400FD8845 /* jul_hiking_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E060166A830400FD8845 /* jul_hiking_thumb.jpg */; };
+		F5F2E063166A844500FD8845 /* nov_bath_mohawk_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E062166A844500FD8845 /* nov_bath_mohawk_thumb.jpg */; };
+		F5F2E065166A844D00FD8845 /* oct_lobster_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E064166A844D00FD8845 /* oct_lobster_thumb.jpg */; };
+		F5F2E067166A845700FD8845 /* aug_hair_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E066166A845700FD8845 /* aug_hair_thumb.jpg */; };
+		F5F2E069166A846100FD8845 /* sep_laugh_yard_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E068166A846100FD8845 /* sep_laugh_yard_thumb.jpg */; };
 		F5F9BF341659AB0B00EAE85C /* jul_hiking.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */; };
 		F5F9BF371659AB7F00EAE85C /* aug_lins_vic.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */; };
 		F5F9BF391659AC0700EAE85C /* aug_hair.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF381659AC0700EAE85C /* aug_hair.JPG */; };
@@ -57,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5882B4916AC3199001333DE /* dec_walker_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dec_walker_thumb.jpg; sourceTree = "<group>"; };
+		F5882B4A16AC3199001333DE /* dec_walker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dec_walker.jpg; sourceTree = "<group>"; };
 		F5A70FB4164EB83E003E0663 /* AvieFirstYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvieFirstYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A70FB8164EB83E003E0663 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5A70FBA164EB83E003E0663 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,13 +101,22 @@
 		F5A71009165130C3003E0663 /* apr_feeding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apr_feeding.jpg; sourceTree = "<group>"; };
 		F5A7100B16513194003E0663 /* may_bath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = may_bath.jpg; sourceTree = "<group>"; };
 		F5F2E035165D3BC900FD8845 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		F5F2E03B165E639300FD8845 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../../../../Pictures/Avery/default.png; sourceTree = "<group>"; };
-		F5F2E03E1660149C00FD8845 /* default_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_retina.png; path = ../../../../Pictures/Avery/default_retina.png; sourceTree = "<group>"; };
 		F5F2E040166014A200FD8845 /* default_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_retina.png; sourceTree = "<group>"; };
-		F5F2E04616601AA100FD8845 /* june_dillon_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = june_dillon_large.jpg; path = ../../../../Pictures/Avery/june_dillon_large.jpg; sourceTree = "<group>"; };
 		F5F2E04A16601B5500FD8845 /* oct_lobster_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_lobster_large.jpg; sourceTree = "<group>"; };
 		F5F2E04C16601BA000FD8845 /* jul_hiking_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_hiking_large.jpg; sourceTree = "<group>"; };
 		F5F2E04E16601C0100FD8845 /* aug_hair_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_hair_large.jpg; sourceTree = "<group>"; };
+		F5F2E050166A7E0300FD8845 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		F5F2E052166A7E0F00FD8845 /* default_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_retina.png; sourceTree = "<group>"; };
+		F5F2E056166A800D00FD8845 /* avie_burrito_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avie_burrito_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E058166A80B800FD8845 /* apr_feeding_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apr_feeding_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E05A166A822400FD8845 /* june_dillon_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = june_dillon_large.jpg; sourceTree = "<group>"; };
+		F5F2E05C166A823200FD8845 /* may_bath_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = may_bath_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E05E166A823D00FD8845 /* june_dillon_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = june_dillon_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E060166A830400FD8845 /* jul_hiking_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_hiking_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E062166A844500FD8845 /* nov_bath_mohawk_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nov_bath_mohawk_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E064166A844D00FD8845 /* oct_lobster_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_lobster_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E066166A845700FD8845 /* aug_hair_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_hair_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E068166A846100FD8845 /* sep_laugh_yard_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sep_laugh_yard_thumb.jpg; sourceTree = "<group>"; };
 		F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_hiking.JPG; sourceTree = "<group>"; };
 		F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_lins_vic.JPG; sourceTree = "<group>"; };
 		F5F9BF381659AC0700EAE85C /* aug_hair.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_hair.JPG; sourceTree = "<group>"; };
@@ -178,27 +200,38 @@
 		F5A70FBF164EB83E003E0663 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F5F2E03B165E639300FD8845 /* default.png */,
+				F5F2E052166A7E0F00FD8845 /* default_retina.png */,
+				F5F2E050166A7E0300FD8845 /* default.png */,
 				F5A70FFC164F0F13003E0663 /* avie_burrito.jpg */,
+				F5F2E056166A800D00FD8845 /* avie_burrito_thumb.jpg */,
 				F5A71009165130C3003E0663 /* apr_feeding.jpg */,
+				F5F2E058166A80B800FD8845 /* apr_feeding_thumb.jpg */,
 				F5A7100B16513194003E0663 /* may_bath.jpg */,
+				F5F2E05C166A823200FD8845 /* may_bath_thumb.jpg */,
 				F5A71002164F1564003E0663 /* june_dillon.JPG */,
-				F5F2E04616601AA100FD8845 /* june_dillon_large.jpg */,
+				F5F2E05A166A822400FD8845 /* june_dillon_large.jpg */,
+				F5F2E05E166A823D00FD8845 /* june_dillon_thumb.jpg */,
 				F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */,
 				F5F2E04C16601BA000FD8845 /* jul_hiking_large.jpg */,
+				F5F2E060166A830400FD8845 /* jul_hiking_thumb.jpg */,
 				F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */,
 				F5F9BF381659AC0700EAE85C /* aug_hair.JPG */,
 				F5F2E04E16601C0100FD8845 /* aug_hair_large.jpg */,
+				F5F2E066166A845700FD8845 /* aug_hair_thumb.jpg */,
 				F5A710071650326C003E0663 /* sep_laugh_yard.jpg */,
+				F5F2E068166A846100FD8845 /* sep_laugh_yard_thumb.jpg */,
 				F5F9BF3A1659B30D00EAE85C /* oct_lobster.JPG */,
 				F5F2E04A16601B5500FD8845 /* oct_lobster_large.jpg */,
+				F5F2E064166A844D00FD8845 /* oct_lobster_thumb.jpg */,
 				F5F9BF3E1659B4A800EAE85C /* nov_bath_mohawk.jpg */,
+				F5F2E062166A844500FD8845 /* nov_bath_mohawk_thumb.jpg */,
+				F5882B4916AC3199001333DE /* dec_walker_thumb.jpg */,
+				F5882B4A16AC3199001333DE /* dec_walker.jpg */,
 				F5F9BF3C1659B3B400EAE85C /* family.JPG */,
 				F5A70FC0164EB83E003E0663 /* AvieFirstYear-Info.plist */,
 				F5A70FC1164EB83E003E0663 /* InfoPlist.strings */,
 				F5A70FC4164EB83E003E0663 /* main.m */,
 				F5A70FC6164EB83F003E0663 /* AvieFirstYear-Prefix.pch */,
-				F5F2E03E1660149C00FD8845 /* default_retina.png */,
 				F5A70FCA164EB83F003E0663 /* Default2.png */,
 				F5A70FCC164EB83F003E0663 /* Default@2x.png */,
 				F5A70FCE164EB83F003E0663 /* Default-568h@2x.png */,
@@ -314,14 +347,25 @@
 				F5F9BF3B1659B30D00EAE85C /* oct_lobster.JPG in Resources */,
 				F5F9BF3D1659B3B400EAE85C /* family.JPG in Resources */,
 				F5F9BF3F1659B4A800EAE85C /* nov_bath_mohawk.jpg in Resources */,
-				F5F2E03C165E639300FD8845 /* default.png in Resources */,
 				F5F2E03D165E63B000FD8845 /* Default.png in Resources */,
-				F5F2E03F1660149C00FD8845 /* default_retina.png in Resources */,
 				F5F2E041166014A200FD8845 /* default_retina.png in Resources */,
-				F5F2E04716601AA100FD8845 /* june_dillon_large.jpg in Resources */,
 				F5F2E04B16601B5500FD8845 /* oct_lobster_large.jpg in Resources */,
 				F5F2E04D16601BA000FD8845 /* jul_hiking_large.jpg in Resources */,
 				F5F2E04F16601C0100FD8845 /* aug_hair_large.jpg in Resources */,
+				F5F2E051166A7E0300FD8845 /* default.png in Resources */,
+				F5F2E053166A7E0F00FD8845 /* default_retina.png in Resources */,
+				F5F2E057166A800D00FD8845 /* avie_burrito_thumb.jpg in Resources */,
+				F5F2E059166A80B800FD8845 /* apr_feeding_thumb.jpg in Resources */,
+				F5F2E05B166A822400FD8845 /* june_dillon_large.jpg in Resources */,
+				F5F2E05D166A823200FD8845 /* may_bath_thumb.jpg in Resources */,
+				F5F2E05F166A823D00FD8845 /* june_dillon_thumb.jpg in Resources */,
+				F5F2E061166A830400FD8845 /* jul_hiking_thumb.jpg in Resources */,
+				F5F2E063166A844500FD8845 /* nov_bath_mohawk_thumb.jpg in Resources */,
+				F5F2E065166A844D00FD8845 /* oct_lobster_thumb.jpg in Resources */,
+				F5F2E067166A845700FD8845 /* aug_hair_thumb.jpg in Resources */,
+				F5F2E069166A846100FD8845 /* sep_laugh_yard_thumb.jpg in Resources */,
+				F5882B4B16AC3199001333DE /* dec_walker_thumb.jpg in Resources */,
+				F5882B4C16AC3199001333DE /* dec_walker.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

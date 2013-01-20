@@ -499,11 +499,11 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Month 10-12 (Dec-Feb)" id="XVe-d2-79l">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="RWI-kB-EtX">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="RWI-kB-EtX">
                                         <rect key="frame" x="0.0" y="586" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="10" y="1" width="300" height="43"/>
+                                            <rect key="frame" x="10" y="1" width="280" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="8KY-IF-n2M">
@@ -520,7 +520,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPw-32-E0d">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="First steps" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPw-32-E0d">
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="chy-SX-shZ"/>
                                                     </constraints>
@@ -540,6 +540,9 @@
                                             <constraint firstItem="IPw-32-E0d" firstAttribute="top" secondItem="RWI-kB-EtX" secondAttribute="top" constant="21" id="vKu-EW-Kgi"/>
                                             <constraint firstItem="IPw-32-E0d" firstAttribute="leading" secondItem="8KY-IF-n2M" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="x4r-I9-K8g"/>
                                         </constraints>
+                                        <connections>
+                                            <segue destination="bEs-gM-LZc" kind="push" identifier="ShowDecember" id="Z7d-AF-zXM"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="tV0-ck-FIU">
                                         <rect key="frame" x="0.0" y="631" width="320" height="44"/>
@@ -636,6 +639,7 @@
                     <connections>
                         <outlet property="avieImageApril" destination="hsq-FA-lBi" id="q44-Pn-W5E"/>
                         <outlet property="avieImageAugust" destination="KnK-Tn-U8K" id="xDM-a2-JmJ"/>
+                        <outlet property="avieImageDecember" destination="8KY-IF-n2M" id="KnK-jT-Oye"/>
                         <outlet property="avieImageJuly" destination="Q7K-uu-o0c" id="2lI-6v-EJJ"/>
                         <outlet property="avieImageJune" destination="y3X-h8-waP" id="7TM-Vn-3SE"/>
                         <outlet property="avieImageMarch" destination="iVS-NX-ptj" id="3eu-Ky-uHF"/>
@@ -729,6 +733,7 @@
             <relationships>
                 <relationship kind="outlet" name="avieImageApril" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="avieImageAugust" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="avieImageDecember" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="avieImageJuly" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="avieImageJune" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="avieImageMarch" candidateClass="UIImageView"/>
@@ -748,6 +753,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9qd-LW-QBn"/>
+        <segue reference="Z7d-AF-zXM"/>
     </inferredMetricsTieBreakers>
 </document>

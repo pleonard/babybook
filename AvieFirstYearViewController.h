@@ -32,6 +32,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *avieImageSeptember;
 @property (strong, nonatomic) IBOutlet UIImageView *avieImageOctober;
 @property (strong, nonatomic) IBOutlet UIImageView *avieImageNovember;
-
+@property (strong, nonatomic) IBOutlet UIImageView *avieImageDecember;
 
 @end
